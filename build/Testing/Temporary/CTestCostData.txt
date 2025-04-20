@@ -1,0 +1,5 @@
+test_url_filter 1 1.00285
+test_html_parser 3 0.154384
+test_warc_reader 3 0.135341
+test_bloom_filter 1 0.422893
+---

@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/ericmodesitt/Desktop/myrapidsift/RapidWebSift/build/cmake_install.cmake",
+		"/Users/ericmodesitt/Desktop/myrapidsift/RapidWebSift/build/examples/cmake_install.cmake",
+		"/Users/ericmodesitt/Desktop/myrapidsift/RapidWebSift/build/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

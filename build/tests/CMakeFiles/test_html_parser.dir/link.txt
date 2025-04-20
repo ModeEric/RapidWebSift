@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/libarchive/lib CMakeFiles/test_html_parser.dir/html_parser_test.cpp.o -o test_html_parser  ../librapidwebsift.a

@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/libarchive/lib CMakeFiles/url_filter_test.dir/url_filter_test.cpp.o -o url_filter_test  ../librapidwebsift.a

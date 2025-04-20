@@ -1,0 +1,2 @@
+/usr/bin/ar qc librapidwebsift.a CMakeFiles/rapidwebsift.dir/src/readers/warc_reader.cpp.o CMakeFiles/rapidwebsift.dir/src/parsers/html_parser.cpp.o CMakeFiles/rapidwebsift.dir/src/filters/url_filter.cpp.o CMakeFiles/rapidwebsift.dir/src/utils/bloom_filter.cpp.o
+/usr/bin/ranlib librapidwebsift.a

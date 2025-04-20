@@ -1,0 +1,124 @@
+Start testing: Apr 19 17:43 CDT
+----------------------------------------------------------
+1/4 Testing: test_url_filter
+1/4 Test: test_url_filter
+Command: "/Users/ericmodesitt/Desktop/myrapidsift/RapidWebSift/build/tests/test_url_filter"
+Directory: /Users/ericmodesitt/Desktop/myrapidsift/RapidWebSift/build/tests
+"test_url_filter" start time: Apr 19 17:43 CDT
+Output:
+----------------------------------------------------------
+
+=== Testing URL Filter Initialization ===
+
+Creating URL filter...
+Initializing filter from scratch...
+[PASSED] Filter Initialization
+
+=== Testing URL Filtering ===
+
+Testing allowed URLs...
+[PASSED] Allowed URLs
+
+Testing blocked URLs...
+[PASSED] Blocked URLs
+
+=== Testing Edge Cases ===
+
+Testing empty URL...
+Testing invalid URL...
+Testing URL with special characters...
+[PASSED] Edge Cases
+
+=== Testing Persistence ===
+
+Creating save directory...
+Testing save functionality...
+[PASSED] Save Filter
+Testing load functionality...
+[PASSED] Load Filter
+Verifying loaded filter...
+[PASSED] Loaded Filter Verification
+
+All tests passed successfully!
+<end of output>
+Test time =   1.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_url_filter" end time: Apr 19 17:43 CDT
+"test_url_filter" time elapsed: 00:00:01
+----------------------------------------------------------
+
+2/4 Testing: test_html_parser
+2/4 Test: test_html_parser
+Command: "/Users/ericmodesitt/Desktop/myrapidsift/RapidWebSift/build/tests/test_html_parser"
+Directory: /Users/ericmodesitt/Desktop/myrapidsift/RapidWebSift/build/tests
+"test_html_parser" start time: Apr 19 17:43 CDT
+Output:
+----------------------------------------------------------
+All HTML parser tests passed!
+<end of output>
+Test time =   0.46 sec
+----------------------------------------------------------
+Test Passed.
+"test_html_parser" end time: Apr 19 17:43 CDT
+"test_html_parser" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: test_warc_reader
+3/4 Test: test_warc_reader
+Command: "/Users/ericmodesitt/Desktop/myrapidsift/RapidWebSift/build/tests/test_warc_reader"
+Directory: /Users/ericmodesitt/Desktop/myrapidsift/RapidWebSift/build/tests
+"test_warc_reader" start time: Apr 19 17:43 CDT
+Output:
+----------------------------------------------------------
+All WARC reader tests passed!
+<end of output>
+Test time =   0.41 sec
+----------------------------------------------------------
+Test Passed.
+"test_warc_reader" end time: Apr 19 17:43 CDT
+"test_warc_reader" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: test_bloom_filter
+4/4 Test: test_bloom_filter
+Command: "/Users/ericmodesitt/Desktop/myrapidsift/RapidWebSift/build/tests/test_bloom_filter"
+Directory: /Users/ericmodesitt/Desktop/myrapidsift/RapidWebSift/build/tests
+"test_bloom_filter" start time: Apr 19 17:43 CDT
+Output:
+----------------------------------------------------------
+
+=== Testing Default Constructor ===
+
+Testing add/contains with default filter...
+
+=== Testing Parameterized Constructor ===
+
+
+=== Testing Adding Items ===
+
+
+=== Testing Testing Non-existing Items ===
+
+
+=== Testing Clear Functionality ===
+
+
+=== Testing Save and Load ===
+
+
+=== Testing Invalid Parameters ===
+
+Correctly caught invalid argument for expectedItems = 0
+Correctly caught invalid argument for falsePositiveRate = 0.0
+
+All Bloom filter tests passed successfully!
+<end of output>
+Test time =   0.42 sec
+----------------------------------------------------------
+Test Passed.
+"test_bloom_filter" end time: Apr 19 17:43 CDT
+"test_bloom_filter" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 19 17:43 CDT
