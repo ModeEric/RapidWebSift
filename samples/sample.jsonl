@@ -1,0 +1,5 @@
+{"url": "http://good.example.com/page", "text": "Good content"}
+{"url": "http://bad.example.com/ads", "text": "Bad ads"}
+{"url": "http://blocked.example.com/bad", "text": "Other"}
+{"url": "http://cool.test.com/cheap-offer", "text": "Cheap price"}
+{"url": "http://site.com/spammy", "text": "Spam content"}

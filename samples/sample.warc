@@ -1,0 +1,31 @@
+WARC/1.0
+WARC-Record-ID: <urn:uuid:1>
+WARC-Target-URI: http://good.example.com/page
+WARC-Date: 2023-01-01T00:00:00Z
+Content-Length: 11
+
+Hello world
+
+WARC/1.0
+WARC-Record-ID: <urn:uuid:2>
+WARC-Target-URI: http://bad.example.com/ads
+WARC-Date: 2023-01-01T00:00:01Z
+Content-Length: 9
+
+Bad ads!
+
+WARC/1.0
+WARC-Record-ID: <urn:uuid:3>
+WARC-Target-URI: http://cool.test.com/cheap-offer
+WARC-Date: 2023-01-01T00:00:02Z
+Content-Length: 13
+
+Buy cheap now
+
+WARC/1.0
+WARC-Record-ID: <urn:uuid:4>
+WARC-Target-URI: http://site.com/spammy
+WARC-Date: 2023-01-01T00:00:03Z
+Content-Length: 12
+
+Spam content
