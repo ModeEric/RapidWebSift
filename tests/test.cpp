@@ -2,9 +2,9 @@
 #include <string>
 #include <vector>
 #include <iostream>
-#include "src/warc_reader.hpp"
+#include "warc_reader.hpp"
 #include <iostream>
-#include "src/url_filter.hpp" 
+#include "url_filter.hpp"
 
 int main() {
     using std::chrono::high_resolution_clock;
