@@ -41,7 +41,7 @@ std::ifstream banned_soft_stream("data/soft_banned_words.txt");
 #include <vector>
 #include <cmph.h>
 
-void buildMPHF(const std::vector<std::string>& keys, const std::string& mphf_file) {
+cmph_t* buildMPHF(const std::vector<std::string>& keys, const std::string& mphf_file) {
     // Make a copy of keys and remove empty ones:
     std::vector<std::string> filteredKeys = keys;
     filteredKeys.erase(std::remove_if(filteredKeys.begin(), filteredKeys.end(),
@@ -96,9 +96,9 @@ void buildMPHF(const std::vector<std::string>& keys, const std::string& mphf_fil
     }
     cmph_dump(hash, mphf_fp);
     fclose(mphf_fp);
-    cmph_destroy(hash);
 
     std::cout << "MPHF successfully built and saved to " << mphf_file << std::endl;
+    return hash;
 }
 
 
@@ -147,8 +147,8 @@ void initFilter() {
     // --- Build MPHF for banned and soft banned words ---
     std::cout << "Number of banned words: " << banned_raw.size() << std::endl;
 
-    buildMPHF(banned_raw, "data/saved/banned.mphf");
-    buildMPHF(softbanned_raw, "data/saved/soft.mphf");
+    bannedwords_mphf = buildMPHF(banned_raw, "data/saved/banned.mphf");
+    softbanned_mphf = buildMPHF(softbanned_raw, "data/saved/soft.mphf");
 }
 
 /// Load bloom filters and sets from previously saved files.
